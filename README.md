@@ -23,4 +23,4 @@ docker run --rm -p 9000:9000 -v `pwd`:/home/user/data webshellkill
 在创建 docker 容器时，使用以下环境变量，可以调整容器行为。
 
 * **`VNC_PASSWD`** 设置 VNC 密码。注意该密码不能超过 8 个字符。
-* **`WEBSHELLKILL_URL`** 设置下载 酷Q 的地址，默认为 `http://d99net.net/down/WebShellKill_V2.0.9.zip` 。
+* **`WEBSHELLKILL_URL`** 设置下载 WebShellKill 的地址，默认为 `http://d99net.net/down/WebShellKill_V2.0.9.zip` 。
